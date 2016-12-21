@@ -1,0 +1,118 @@
+.backwrapper{
+  position: relative;
+  background-color: grey;
+  background-image: url(../img/blueback.png);
+  height: 1060px;
+  width: 1280px;
+  color: white;
+  }
+
+.maincontainer{
+  position:absolute;
+  top: 38px;
+  left: 150px;
+  background: white;
+  color: black;
+  width: 1000px;
+  margin: 0 auto;
+  height: 990px;
+}
+
+.maincontainer{
+position: absolute;
+width: 1000px;
+margin: 0 auto;
+}
+
+.photo1 {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+
+.photo2 {
+  position: absolute;
+  left: -151px;
+  top: -38px;
+}
+
+/*drop-down menu*/
+
+.centralpanel{
+  position: absolute;
+  left: -70px;
+  top: 412px;
+  right: 50px;
+}
+ul {
+    display: block;
+    margin: 0 70px;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #353535;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: #353535;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 33px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid grey;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #353535;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+/*Sidebar*/
+.sidebar{
+  background: #edeef0;
+  color: #424c43;
+  width: 20%;
+}
+/*News*/
+.news{
+  float: right;
+  background: #edeef0;
+  color: #424c43;
+  width: 20%;
+}
