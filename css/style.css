@@ -1,27 +1,18 @@
 .backwrapper{
   position: relative;
-  background-color: grey;
-  background-image: url(../img/blueback.png);
   height: 1060px;
   width: 1280px;
-  color: white;
-  }
+  background-image: url(../img/blueback.png);
+   }
 
 .maincontainer{
   position:absolute;
   top: 38px;
   left: 150px;
   background: white;
-  color: black;
   width: 1000px;
   margin: 0 auto;
   height: 990px;
-}
-
-.maincontainer{
-position: absolute;
-width: 1000px;
-margin: 0 auto;
 }
 
 .photo1 {
@@ -29,6 +20,28 @@ margin: 0 auto;
   left: 50px;
   top: 10px;
 }
+
+.contacts{
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    color: #5fa5bb;
+    margin: 0;
+}
+
+.contacts li:first-child{
+    font-weight: bold;
+}
+
+/*.countries li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 10px;
+    }
+
+.countries li a {
+    display: inline-block;
+}*/
 
 .photo2 {
   position: absolute;
@@ -78,9 +91,9 @@ ul.menu > li > a:hover {
 ul.submenu {
     display: none;
     position: absolute;
-    width: 150px;
+    width: 125px;
     top: 33px;
-    left: 0;
+    left: -70px;
     background-color: #ffffff;
     border: 1px solid grey;
 }
@@ -103,16 +116,54 @@ ul.submenu > li > a:hover {
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
+
 /*Sidebar*/
 .sidebar{
-  background: #edeef0;
-  color: #424c43;
-  width: 20%;
+    float: left;
+    margin-top: 450px;
+    width: 209px;
+    height: 540px;
+    background: #edeef0;
+    color: #424c43;
+    border-right: 1px solid #c7cacf;
 }
+
+.sidebar h2{
+    margin-left: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.sidebar p{
+    margin-left: 18px;
+    line-height: 1.5;
+}
+
 /*News*/
 .news{
   float: right;
+  margin-top: 450px;
+  width: 209px;
+  height: 540px;
   background: #edeef0;
   color: #424c43;
-  width: 20%;
+  border-left: 1px solid #c7cacf;
+  }
+
+.news h2{
+    margin-left: 70px;
+    font-weight: bold;
+    line-height: 1.5;
 }
+
+.news p{
+    margin-left: 18px;
+    line-height: 1.5;
+}
+/*footer*/
+.footer{
+  position: absolute;
+  top: 1040px;
+  left: 550px;
+  color: #d4e1e9;
+  }
